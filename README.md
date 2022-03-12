@@ -84,10 +84,13 @@ This is a quick template which help you build up backend with Flask + MySQL and 
     
     ```
  ## Usage
- 1. Make sure your MySQL Service
+ 1. Make sure that MySQL Service active correctly
     ```bash
     $ service mysql status
     ```
+    <p align="center">
+      <img src="https://github.com/liuyuweitarek/Flask_MySQL_QuickTemplate/blob/main/wiki/mysql_service_check.jpg">
+    </p>
  2. Activate project python environment 
      ```bash
      $ cd ~/Flask_MySQL_QuickTemplate
