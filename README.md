@@ -95,12 +95,25 @@ This is a quick template which help you build up backend with Flask + MySQL and 
      ```bash
      $ cd ~/Flask_MySQL_QuickTemplate
      $ source env/bin/activate
+     $ export PYTHONPATH=src
      ```
  3. Run
     ```bash
      $ python run.py --config [dev, prod]
     ```
-    
+
+## Test
+**[ GET API ] :** {YOUR_IP_ADDRESS}:{PORT}/GET/dev_or_prod
+
+
+**[ POST API ] :** {YOUR_IP_ADDRESS}:{PORT}/POST/storedata
+
+<p align="center">
+      <img src="https://github.com/liuyuweitarek/Flask_MySQL_QuickTemplate/blob/main/wiki/POST_DEMO.jpg">
+      <img src="https://github.com/liuyuweitarek/Flask_MySQL_QuickTemplate/blob/main/wiki/POST_DEMO_dashboard.jpg">
+</p>
+
+
        
 
 
