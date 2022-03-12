@@ -46,8 +46,8 @@ def index():
     For instance, we use "json" as the format of request data here.
     For more information, please check the documents: https://flask.palletsprojects.com/en/2.0.x/api/#incoming-request-data
 '''
-@app.route('/POST/example_api', methods=['POST'])
-def ReceiveData():
+@app.route('/POST/storedata', methods=['POST'])
+def StoreData():
     '''
         Copy data down below and fill into "raw" columns in the Postman or some other API test services
     
