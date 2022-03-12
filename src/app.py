@@ -52,9 +52,13 @@ def StoreData():
         Copy data down below and fill into "raw" columns in the Postman or some other API test services
     
         *** Example JSON Data ***
-        [{ 'name':'Yuwei Liu',
-           'timestamp':'2022/03/12-10:00:00',
-           'lucky_number':17 }]
+        [
+            {   
+                "name":"Yuwei Liu",
+                "timestamp":"2022/03/12-10:00:00",
+                "lucky_number":17 
+            }
+        ]
     
     '''
     data = request.json
